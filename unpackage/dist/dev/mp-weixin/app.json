@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/product/product",
+    "pages/cart/cart",
+    "pages/userCenter/userCenter",
+    "pages/login/login",
+    "pages/product/productDetail",
+    "pages/product/productInventory",
+    "pages/list/list",
+    "pages/list/detail",
+    "pages/inventory/inventory",
+    "pages/searchProduct/searchProduct",
+    "pages/counter/counter"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#5190FF",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home_select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "iconPath": "static/product.png",
+        "selectedIconPath": "static/product_select.png",
+        "text": "产品"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/cart.png",
+        "selectedIconPath": "static/cart_select.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/userCenter/userCenter",
+        "iconPath": "static/user.png",
+        "selectedIconPath": "static/user_select.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {}
+}

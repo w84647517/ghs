@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "购物车",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-checkbox": "/uview-ui/components/u-checkbox/u-checkbox",
+    "u-swipe-action": "/uview-ui/components/u-swipe-action/u-swipe-action",
+    "uni-number-box": "/uni_modules/uni-number-box/components/uni-number-box/uni-number-box",
+    "u-empty": "/uview-ui/components/u-empty/u-empty",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "uni-popup-dialog": "/uni_modules/uni-popup/components/uni-popup-dialog/uni-popup-dialog",
+    "u-number-box": "/uview-ui/components/u-number-box/u-number-box",
+    "u-modal": "/uview-ui/components/u-modal/u-modal"
+  }
+}

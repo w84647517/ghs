@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "搜索产品",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "u-empty": "/uview-ui/components/u-empty/u-empty",
+    "category-item-search": "/components/category/CategoryItemSearch"
+  }
+}

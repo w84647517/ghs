@@ -1,0 +1,163 @@
+{
+	"easycom": {
+	        // 下载安装的方式需要前面的"@/"，npm安装的方式无需"@/"
+	        // 下载安装方式
+	        "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	        // npm安装方式
+	        // "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	    },
+		
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		}
+	    ,{
+            "path" : "pages/product/product",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "产品分类",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cart/cart",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "购物车",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userCenter/userCenter",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/product/productDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "产品详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/product/productInventory",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "清单详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/list/list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新闻列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/list/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新闻详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/inventory/inventory",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的清单", 
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/searchProduct/searchProduct",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索产品",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/counter/counter",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"condition": { //模式配置，仅开发期间生效
+			"current": 9, //当前激活的模式（list 的索引项）
+			"list": [{
+				"name": "我的清单", //模式名称
+				"path": "pages/inventory/inventory",//启动页面，必选
+				"query":"id=2"
+			}]
+		},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#5190FF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/home.png",
+			"selectedIconPath": "static/home_select.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/product/product",
+			"iconPath": "static/product.png",
+			"selectedIconPath": "static/product_select.png",
+			"text": "产品"
+		},
+		{
+			"pagePath": "pages/cart/cart",
+			"iconPath": "static/cart.png",
+			"selectedIconPath": "static/cart_select.png",
+			"text": "购物车"
+		},
+		{
+			"pagePath": "pages/userCenter/userCenter",
+			"iconPath": "static/user.png",
+			"selectedIconPath": "static/user_select.png",
+			"text": "我的"
+		}
+		]
+	}
+}
